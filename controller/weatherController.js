@@ -50,3 +50,21 @@ exports.readWeather = async(req, res)=>{
         })
     }
 }
+
+// exports.getAllWeatherUpdate = async (req, res) =>{
+//     try {
+//         const allWeather = await weather.find();
+//         res.status(201).json({
+//             message: "Here is your weather update",
+//             data: allWeather,
+//             total: allWeather.length
+//         });
+
+//     } catch (error) {
+//         console.log(error.message)
+//         res.status(500).json({
+//             message: "Error getting the weather update",
+//         })
+//     }
+// }
+ 
